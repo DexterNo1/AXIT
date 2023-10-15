@@ -1,0 +1,120 @@
+.container{
+    width: 1170px;
+    height: 541px;
+    margin: 0 auto;
+    border-bottom: 1px solid #C6CBCD;
+    border-left: 1px solid #C6CBCD;
+    border-radius: 5px 0px 0px 0px;
+}
+.tabs{
+    width: 1170px;
+    height: 40px;
+}
+.tabs__tab1{
+    width: 203px;
+    height: 40px;
+    border-radius: 5px 5px 0px 0px;
+    border-top: 1px solid #C6CBCD;
+    border-right: 1px solid #C6CBCD;
+    text-transform: uppercase;
+    font-family: Open Sans;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+    vertical-align: top;
+}
+.tabs__tab2{
+    width: 184px;
+    height: 40px;
+    margin-left: -4px;
+    border-bottom: 1px solid #C6CBCD;
+    text-transform: uppercase;
+    font-family: Open Sans;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+    vertical-align: top;
+}
+.tabs__tab3{
+    width: 184px;
+    height: 40px;
+    margin-left: -4px;
+    border-bottom: 1px solid #C6CBCD;
+    text-transform: uppercase;
+    font-family: Open Sans;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+    vertical-align: top;
+}
+.tabs__tab-invis{
+    width: 595px;
+    height: 40px;
+    margin-left: -4px;
+    border-bottom: 1px solid #C6CBCD;
+    line-height: 40px;
+    display: inline-block;
+    vertical-align: top;
+}
+.undertabs{
+    width: 1170px;
+    height: 501px;
+    border-right: 1px solid #C6CBCD;
+}
+.undertabs__left-block{
+    width: 670px;
+    display: inline-block;
+    vertical-align: top;
+}
+.undertabs__left-block-title{
+    width: 570px;
+    height: 124px;
+    display: flex;
+    align-items: center;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    padding-left: 100px;
+    margin: 0;
+    }
+.undertabs__left-block-text{
+    width: 570px;
+    height: 210px;
+    display: flex;
+    align-items: center;
+    color: #000;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 100px;
+}
+.undertabs__left-block-redbutton{
+    width: 270px;
+    height: 58px;
+    background: #EC7979;
+    color: white;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    line-height: 57px;
+    margin-left: 100px;
+}
+.undertabs__right-block{
+    width: 471px;
+    height: 501px;
+    display: inline-block;
+    margin-left: 25px;
+}
+.undertabs__right-_block-picture{
+    width: 471px;
+    height: 501px;
+}
