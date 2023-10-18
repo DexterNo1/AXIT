@@ -1,4 +1,7 @@
 .awesome {
+    width: 100%;
+}
+.awesome-container{
     width: 1170px;
     margin: 0 auto;
 }

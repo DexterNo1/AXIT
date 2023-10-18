@@ -1,8 +1,10 @@
-.price__container{
-    width: 1170px;
+.price-background{
     height: 900px;
+    background: #F5F5F5;
+}
+.price-container{
+    width: 1170px;
     margin: 0 auto;
-    background-color: #f5f5f5;
 }
 .price__title{
     padding-top: 50px;
@@ -27,300 +29,28 @@
 .price__subtitle{
     margin-top: 40px;
     margin-bottom: 59px;
-    height: 21px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     color: #86878B;
     text-align: center;
     font-family: Raleway;
     font-size: 18px;
     font-weight: 400;
 }
-.price__bigbox{
+.price-bigbox{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
 }
-.bigbox__box1{
-    width: 369px;
-    margin-top: 20px;
-    margin-left: 10px;
-    border: 1px solid #F5F5F5;
-    
-}
-.bigbox__box1_hover:hover{
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
-}
-.box1-basic{
-    display: flex;
-    height: 60px;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #333333;
-    color: #FFF;
-    text-align: center;
-    font-family: Open Sans;
-    font-size: 24px;
-    font-weight: 700;
-    margin: 0;
-}
-.box1-price{
-    display: flex;
-    height: 100px;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #333333;
-    color: #FFF;
-    text-align: center;
-    font-family: Raleway;
-    font-size: 24px;
-    font-weight: 700;
-    margin-top: 1px;
-    margin-bottom: 1px;
-}
-.box1-free{
-    display: flex;
-    height: 50px;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #333333;
-    color: #FFFFFF80;
-    text-align: center;
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: 400;
-    margin-top: 1px;
-    margin-bottom: 1px;
-}
-.box1-1GB_1{
-    display: flex;
-    height: 50px;
-    flex-direction: column;
-    justify-content: center;
-    background-color: white;
-    color: #86878B;
-    text-align: center;
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: 400;
-    margin-top: 1px;
-    margin-bottom: 0px;
-}
-.box1-1GB_2{
-    display: flex;
-    height: 50px;
-    flex-direction: column;
-    justify-content: center;
-    background-color: white;
-    color: #86878B;
-    text-align: center;
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: 400;
-    margin-top: 1px;
-    margin-bottom: 0px;
-}
-.box1-1GB_3{
-    display: flex;
-    height: 50px;
-    flex-direction: column;
-    justify-content: center;
-    background-color: white;
-    color: #86878B;
-    text-align: center;
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: 400;
-    margin-top: 1px;
-    margin-bottom: 0px;
-}
-.box1-1GB_4{
-    display: flex;
-    height: 50px;
-    flex-direction: column;
-    justify-content: center;
-    background-color: white;
-    color: #86878B;
-    text-align: center;
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: 400;
-    margin-top: 1px;
-    margin-bottom: 0px;
-}
-.box1-1GB_5{
-    display: flex;
-    height: 50px;
-    flex-direction: column;
-    justify-content: center;
-    background-color: white;
-    color: #86878B;
-    text-align: center;
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: 400;
-    margin-top: 1px;
-    margin-bottom: 0px;
-}
-.box1-1GB_6{
-    display: flex;
-    height: 50px;
-    flex-direction: column;
-    justify-content: center;
-    background-color: white;
-    color: #86878B;
-    text-align: center;
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: 400;
-    margin-top: 1px;
-    margin-bottom: 0px;
-}
-.bigbox__box2{
-    width: 369px;
-    border: 1px solid #F5F5F5;
-    }
-.bigbox__box2_hover:hover{
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
-    margin-bottom: 20px;
-}
-.box2-basic{
-    display: flex;
-    height: 60px;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #333333;
-    color: #FFF;
-    text-align: center;
-    font-family: Open Sans;
-    font-size: 24px;
-    font-weight: 700;
-    margin: 0;
-}
-.box2-price{
-    display: flex;
-    height: 100px;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #333333;
-    color: #FFF;
-    text-align: center;
-    font-family: Raleway;
-    font-size: 24px;
-    font-weight: 700;
-    margin-top: 1px;
-    margin-bottom: 1px;
-}
-.box2-free{
-    display: flex;
-    height: 50px;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #333333;
-    color: #FFFFFF80;
-    text-align: center;
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: 400;
-    margin-top: 1px;
-    margin-bottom: 1px;
-}
-.box2-1GB_1{
-    display: flex;
-    height: 50px;
-    flex-direction: column;
-    justify-content: center;
-    background-color: white;
-    color: #86878B;
-    text-align: center;
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: 400;
-    margin-top: 1px;
-    margin-bottom: 0px;
-}
-.box2-1GB_2{
-    display: flex;
-    height: 50px;
-    flex-direction: column;
-    justify-content: center;
-    background-color: white;
-    color: #86878B;
-    text-align: center;
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: 400;
-    margin-top: 1px;
-    margin-bottom: 0px;
-}
-.box2-1GB_3{
-    display: flex;
-    height: 50px;
-    flex-direction: column;
-    justify-content: center;
-    background-color: white;
-    color: #86878B;
-    text-align: center;
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: 400;
-    margin-top: 1px;
-    margin-bottom: 0px;
-}
-.box2-1GB_4{
-    display: flex;
-    height: 50px;
-    flex-direction: column;
-    justify-content: center;
-    background-color: white;
-    color: #86878B;
-    text-align: center;
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: 400;
-    margin-top: 1px;
-    margin-bottom: 0px;
-}
-.box2-1GB_5{
-    display: flex;
-    height: 50px;
-    flex-direction: column;
-    justify-content: center;
-    background-color: white;
-    color: #86878B;
-    text-align: center;
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: 400;
-    margin-top: 1px;
-    margin-bottom: 0px;
-}
-.box2-1GB_6{
-    display: flex;
-    height: 50px;
-    flex-direction: column;
-    justify-content: center;
-    background-color: white;
-    color: #86878B;
-    text-align: center;
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: 400;
-    margin-top: 1px;
-    margin-bottom: 0px;
-}
-.bigbox__box3{
-    width: 369px;
-    margin-top: 20px;
-    margin-right: 10px;
-    border: 1px solid #F5F5F5;
-}
-.bigbox__box3_hover:hover{
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 
+.bigbox-box{
+    width: 369px;
+    border: 1px solid #F5F5F5;
 }
-.box3-basic{
+.bigbox-box_hover:hover{
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    transform: translateY(-20px);
+    transition: 0.5s;
+}
+
+.box__basic{
     display: flex;
     height: 60px;
     flex-direction: column;
@@ -330,10 +60,9 @@
     text-align: center;
     font-family: Open Sans;
     font-size: 24px;
-    font-weight: 700;
     margin: 0;
 }
-.box3-price{
+.box__amount{
     display: flex;
     height: 100px;
     flex-direction: column;
@@ -343,11 +72,10 @@
     text-align: center;
     font-family: Raleway;
     font-size: 24px;
-    font-weight: 700;
     margin-top: 1px;
     margin-bottom: 1px;
 }
-.box3-free{
+.box__free{
     display: flex;
     height: 50px;
     flex-direction: column;
@@ -361,77 +89,7 @@
     margin-top: 1px;
     margin-bottom: 1px;
 }
-.box3-1GB_1{
-    display: flex;
-    height: 50px;
-    flex-direction: column;
-    justify-content: center;
-    background-color: white;
-    color: #86878B;
-    text-align: center;
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: 400;
-    margin-top: 1px;
-    margin-bottom: 0px;
-}
-.box3-1GB_2{
-    display: flex;
-    height: 50px;
-    flex-direction: column;
-    justify-content: center;
-    background-color: white;
-    color: #86878B;
-    text-align: center;
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: 400;
-    margin-top: 1px;
-    margin-bottom: 0px;
-}
-.box3-1GB_3{
-    display: flex;
-    height: 50px;
-    flex-direction: column;
-    justify-content: center;
-    background-color: white;
-    color: #86878B;
-    text-align: center;
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: 400;
-    margin-top: 1px;
-    margin-bottom: 0px;
-}
-.box3-1GB_4{
-    display: flex;
-    height: 50px;
-    flex-direction: column;
-    justify-content: center;
-    background-color: white;
-    color: #86878B;
-    text-align: center;
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: 400;
-    margin-top: 1px;
-    margin-bottom: 0px;
-}
-.box3-1GB_5{
-    display: flex;
-    height: 50px;
-    flex-direction: column;
-    justify-content: center;
-    background-color: white;
-    color: #86878B;
-    text-align: center;
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: 400;
-    margin-top: 1px;
-    margin-bottom: 0px;
-}
-.box3-1GB_6{
+.box__1GB{
     display: flex;
     height: 50px;
     flex-direction: column;
