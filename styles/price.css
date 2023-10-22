@@ -6,7 +6,7 @@
     width: 1170px;
     margin: 0 auto;
 }
-.price__title{
+.price-container__title{
     padding-top: 50px;
     margin-bottom: 0;
     display: flex;
@@ -20,13 +20,13 @@
     font-weight: 400;
     text-transform: uppercase;
 }
-.price__separator{
+.price-container__separator{
     margin: auto;
     width: 170px;
     height: 1px;
     background-color: #EC7979;
 }
-.price__subtitle{
+.price-container__subtitle{
     margin-top: 40px;
     margin-bottom: 59px;
     color: #86878B;
@@ -50,7 +50,7 @@
     transition: 0.5s;
 }
 
-.box__basic{
+.bigbox-box__basic{
     display: flex;
     height: 60px;
     flex-direction: column;
@@ -62,7 +62,7 @@
     font-size: 24px;
     margin: 0;
 }
-.box__amount{
+.bigbox-box__amount{
     display: flex;
     height: 100px;
     flex-direction: column;
@@ -75,7 +75,7 @@
     margin-top: 1px;
     margin-bottom: 1px;
 }
-.box__free{
+.bigbox-box__free{
     display: flex;
     height: 50px;
     flex-direction: column;
@@ -89,7 +89,7 @@
     margin-top: 1px;
     margin-bottom: 1px;
 }
-.box__1GB{
+.bigbox-box__1GB{
     display: flex;
     height: 50px;
     flex-direction: column;

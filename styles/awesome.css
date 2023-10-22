@@ -1,11 +1,11 @@
-.awesome {
+.awesome-background{
     width: 100%;
 }
-.awesome-container{
+.awesome-container {
     width: 1170px;
     margin: 0 auto;
 }
-.awesome__title {
+.awesome-container__title {
     font-size: 36px;
     font-weight: 400;
     font-family: Raleway;
@@ -13,13 +13,13 @@
     height: 150px;
     line-height: 150px;
 }
-.awesome__separator {
+.awesome-container__separator {
     width: 170px;
     border: 1px solid #EC7979;
     margin: auto;
     margin-bottom: 40px;
 }
-.awesome__subheading {
+.awesome-container__subheading {
     font-weight: 400;
     text-align: center;
     font-family: Raleway;
