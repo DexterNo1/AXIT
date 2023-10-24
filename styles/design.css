@@ -1,0 +1,58 @@
+.design-background{
+    width: 100%;
+    height: 442px;
+    background-size: cover;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('/images/design/city.png');;
+    margin-top: 50px;
+}
+.design-container{
+    width: 1170px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+.design-container__title{
+    height: 150px;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: 50px;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+}
+.design-container__separator{
+    width: 170px;
+    border: 1px solid white;
+    background-color: #FFF;
+    margin-top: 0;
+}
+.design-container__subtitle{
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+.design-container__button{
+    width: 370px;
+    height: 58px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 73px;
+}
+.design-container__button_hover:hover{
+    border: 3px solid white;
+}
+.design-container__button_click:active{
+    transform: scale(0.99);
+}

@@ -3,24 +3,61 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AXIT</title>
-<link rel="stylesheet" href="/styles/awesome.css">
-<link rel="stylesheet" href="/styles/tabs.css">
-<link rel="stylesheet" href="/styles/price.css">
-<link rel="stylesheet" href="/styles/customers.css">
+<title>AXIT Project</title>
+<link rel="stylesheet" href="./styles/styles.css">
+<link rel="stylesheet" href="./styles/awesome.css">
+<link rel="stylesheet" href="./styles/tabs.css">
+<link rel="stylesheet" href="./styles/price.css">
+<link rel="stylesheet" href="./styles/customers.css">
+<link rel="stylesheet" href="./styles/social.css">
+<link rel="stylesheet" href="./styles/header.css">
+<link rel="stylesheet" href="./styles/design.css">
+<link rel="stylesheet" href="./styles/footer.css">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-<section class="container">
-        <div class="tabs">
-            <div class="tabs__tab1">Tab 1</div>
-            <div class="tabs__tab2">Tab 2</div>
-            <div class="tabs__tab3">Tab 3</div>
-            <div class="tabs__tab-invis"></div></div>
-        <div class="undertabs">
-            <div class="undertabs__left-block">
-                <h3 class="undertabs__left-block-title">Tabs with soft transitioning effect.</h3>
-                <h5 class="undertabs__left-block-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean 
+<header class="header-background">
+    <div class="header-container">
+        <img class="header-container__logo" src="./images/header/logo.svg" alt="Logo">
+        <div class="header-menu">
+            <div class="header-menu__item">Features</div>
+            <div class="header-menu__item">About</div>
+            <div class="header-menu__item">Pricing</div>
+            <div class="header-menu__item">Reviews</div>
+            <div class="header-menu__item">Contact</div>
+        </div>
+    </div>
+</header>
+<section class="social-background">
+    <div class="social-container">
+        <div class="social-info">
+        <h4 class="social-info__title">Social Media</h4>
+        <h5 class="social-info__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Aenean euismod bibendum laoreet.</h5>
+        </div>
+        <div class="social-icons">
+            <img class="social-icons__icon" src="./images/social/facebook_icon.svg" alt="Facebook icon">
+            <img class="social-icons__icon" src="./images/social/twitter_icon.svg" alt="Tweeter icon">
+            <img class="social-icons__icon" src="./images/social/linkedin_icon.svg" alt="LinkedIn icon">
+            <img class="social-icons__icon" src="./images/social/pinterest_icon.svg" alt="Pinterest icon">
+            <img class="social-icons__icon" src="./images/social/instagram_icon.svg" alt="Instagram icon">
+            <img class="social-icons__icon" src="./images/social/github_icon.svg" alt="GitHub icon">
+            <img class="social-icons__icon" src="./images/social/rss_icon.svg" alt="RSS icon">
+        </div>
+    </div>
+</section>
+<section class="tabs-background">
+    <div class="tabs-container">
+    <div class="tabs-line">
+        <div class="tabs-line__tab">Tab 1</div>
+        <div class="tabs-line__tab1">Tab 2</div>
+        <div class="tabs-line__tab1">Tab 3</div>
+        <div class="tabs-container__tab-invis"></div>
+    </div> 
+        <div class="undertabs-container">
+            <div class="undertabs-left-block">
+                <h3 class="undertabs-left-block__title">Tabs with soft transitioning effect.</h3>
+                <h5 class="undertabs-left-block__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
                 <br>euismod</br>
                 bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et 
                 <br>viverra</br>
@@ -30,12 +67,11 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
                 <br>euismod
                 <br>bibendum laoreet.</h5>
-                <div class="undertabs__left-block-redbutton">Download</div>
+                <div class="undertabs-left-block__button">Download</div>
             </div>
-            <div class="undertabs__right-block">
-            <img class="undertabs__right-_block-picture" src="/images/statue.svg" alt="statue">
-            </div>
+            <img class="undertabs__right-_block-picture" src="./images/tabs/statue.svg" alt="statue">
         </div>
+    </div>
 </section>
 <section class="awesome-background">
     <div class="awesome-container">
@@ -44,21 +80,21 @@
         <h5 class="awesome-container__subheading">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
         <div class="awesome-block">
             <article class="awesome-item">
-                <img class="awesome-item__image" src="images/lamp.svg" alt="Lamp">
+                <img class="awesome-item__image" src="./images/awesome/lamp.svg" alt="Lamp">
                 <h4 class="awesome-item__title">Thoughtful Design</h4>
                 <h5 class="awesome-item__description">Lorem ipsum dolor sit amet, consectetur adipiscing 
                 elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.
                 </h5>
             </article>
             <article class="awesome-item">
-                <img class="awesome-item__image" src="images/keyboard.svg" alt="Keyboard">
+                <img class="awesome-item__image" src="./images/awesome/keyboard.svg" alt="Keyboard">
                 <h4 class="awesome-item__title">Thoughtful Design</h4>
                 <h5 class="awesome-item__description">Lorem ipsum dolor sit amet, consectetur adipiscing 
                 elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.
                 </h5>
             </article>
             <article class="awesome-item">
-                <img class="awesome-item__image" src="images/thunder.svg" alt="Thunder">
+                <img class="awesome-item__image" src="./images/awesome/thunder.svg" alt="Thunder">
                 <h4 class="awesome-item__title">Thoughtful Design</h4>
                 <h5 class="awesome-item__description">Lorem ipsum dolor sit amet, consectetur adipiscing 
                 elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.
@@ -69,10 +105,10 @@
 </section>
 <section class="price-background">
     <div class="price-container">
-    <h2 class="price-container__title">pricing options</h2>
-    <div class="price-container__separator"></div>
-    <h5 class="price-container__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
-    <div class="price-bigbox">
+        <h2 class="price-container__title">pricing options</h2>
+        <div class="price-container__separator"></div>
+        <h5 class="price-container__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+        <div class="price-bigbox">
         <div class="bigbox-box bigbox-box_hover">
             <h4 class="bigbox-box__basic">Basic</h4>
             <h3 class="bigbox-box__amount">$10</h3>
@@ -145,22 +181,44 @@
         </div>
         <div class="customers-employees">
             <div class="employee-info">
-                <img class="employe-info__photo" src="/images/davis.svg" alt="Davis">
+                <img class="employe-info__photo" src="./images/customers/davis.svg" alt="Davis">
                 <h4 class="employe-info__name">Davis Rhiel Madsen</h4>
                 <h5 class="employe-info__job">Manager</h5>
             </div>
             <div class="employee-info">
-                <img class="employe-info__photo" src="/images/jaydon.svg" alt="Jaydon">
+                <img class="employe-info__photo" src="./images/customers/jaydon.svg" alt="Jaydon">
                 <h4 class="employe-info__name">Jaydon Rosser</h4>
                 <h5 class="employe-info__job">Manager</h5>
             </div>
             <div class="employee-info">
-                <img class="employe-info__photo" src="/images/cooper.svg" alt="Cooper">
+                <img class="employe-info__photo" src="./images/customers/cooper.svg" alt="Cooper">
                 <h4 class="employe-info__name">Cooper Dorwart</h4>
                 <h5 class="employe-info__job">Manager</h5>
             </div>
         </div>
     </div>
 </section>
+<section class="design-background">
+    <div class="design-container">
+        <h2 class="design-container__title">STYLISH AXURE DESIGN</h2>
+        <div class="design-container__separator"></div>
+        <h5 class="design-container__subtitle">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</h5>
+        <button class="design-container__button design-container__button_hover design-container__button_click" type="button">Download</button>
+    </div>
+</section>
+<footer class="footer-background">
+    <div class="footer-container">
+        <div class="footer-icons">
+            <img class="footer-icons_item" src="./images/footer/facebook_icon.svg" alt="Facebook_icon">
+            <img class="footer-icons_item" src="./images/footer/twitter_icon.svg" alt="Twitter_icon">
+            <img class="footer-icons_item" src="./images/footer/linkedin_icon.svg" alt="LinkedIn_icon">
+            <img class="footer-icons_item" src="./images/footer/pinterest_icon.svg" alt="Pinterest_icon">
+            <img class="footer-icons_item" src="./images/footer/instagram_icon.svg" alt="Instagram_icon">
+            <img class="footer-icons_item" src="./images/footer/github_icon.svg" alt="GitHub_icon">
+            <img class="footer-icons_item" src="./images/footer/rss_icon.svg" alt="RSS_icon">
+        </div>
+        <t5 class="footer-container_text">© 2015 Axure Themes</t5>
+    </div>
+</footer>
 </body>
 </html>
