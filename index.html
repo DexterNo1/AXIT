@@ -12,22 +12,51 @@
 <link rel="stylesheet" href="./styles/social.css">
 <link rel="stylesheet" href="./styles/header.css">
 <link rel="stylesheet" href="./styles/design.css">
+<link rel="stylesheet" href="./styles/contact.css">
 <link rel="stylesheet" href="./styles/footer.css">
+<link rel="stylesheet" href="./styles/banner.css">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
 <header class="header-background">
     <div class="header-container">
-        <img class="header-container__logo" src="./images/header/logo.svg" alt="Logo">
-        <div class="header-menu">
-            <div class="header-menu__item">Features</div>
-            <div class="header-menu__item">About</div>
-            <div class="header-menu__item">Pricing</div>
-            <div class="header-menu__item">Reviews</div>
-            <div class="header-menu__item">Contact</div>
-        </div>
+        <a href="#">
+            <img class="header-container__logo" src="./images/header/logo.svg" alt="Logo">
+        </a>
+        <nav class="header-menu">
+            <div class="header-menu__item header-menu__item_hover header-menu__item_active">Features</div>
+            <div class="header-menu__item header-menu__item_hover header-menu__item_active">About</div>
+            <div class="header-menu__item header-menu__item_hover header-menu__item_active">Pricing</div>
+            <div class="header-menu__item header-menu__item_hover header-menu__item_active">Reviews</div>
+            <div class="header-menu__item header-menu__item_hover header-menu__item_active">Contact</div>
+        </nav>
     </div>
 </header>
+<section class="banner-background">
+    <div class="banner-container">
+        <div class="banner-left-box">
+            <div class="banner-left-box__logo">
+                <img src="./images/banner/AXIT_logo.svg" alt="axit_logo1">
+                <img src="./images/banner/AXIT_logo2.svg" alt="axit_logo2">
+            </div>
+            <h1 class="banner-left-box__title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
+            <div class="banner-left-box__separator"></div>
+            <h5 class="banner-left-box__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h5>
+            <button class="banner-left-box__button banner-left-box__button_hover banner-left-box__button_active" type="button">Download</button>
+        </div>
+        <div class="banner-right-box">
+            <h4 class="banner-right-box__title">Try Your <span style="color:#EC7979;">FREE</span> Trial Today</h4>
+            <form class="banner-right-box-form">
+                <div class="banner-right-box-form-container">
+                    <input class="banner-right-box-form-container__info" type="text" placeholder="Name">
+                    <input class="banner-right-box-form-container__info" type="email" placeholder="Email">
+                    <input class="banner-right-box-form-container__info" type="password" placeholder="Password">
+                </div>
+                <button class="banner-right-box-form-container__button banner-right-box-form-container__button_hover banner-right-box-form-container__button_active" type="submit">Get Started</button>
+            </form>
+        </div>
+    </div>
+</section>
 <section class="social-background">
     <div class="social-container">
         <div class="social-info">
@@ -67,7 +96,7 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
                 <br>euismod
                 <br>bibendum laoreet.</h5>
-                <div class="undertabs-left-block__button">Download</div>
+                <button class="undertabs-left-block__button undertabs-left-block__button_hover undertabs-left-block__button_active" type="button">Download</button>
             </div>
             <img class="undertabs__right-_block-picture" src="./images/tabs/statue.svg" alt="statue">
         </div>
@@ -80,21 +109,21 @@
         <h5 class="awesome-container__subheading">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
         <div class="awesome-block">
             <article class="awesome-item">
-                <img class="awesome-item__image" src="./images/awesome/lamp.svg" alt="Lamp">
+                <img class="awesome-item__image awesome-item__image_hover" src="./images/awesome/lamp.svg" alt="Lamp">
                 <h4 class="awesome-item__title">Thoughtful Design</h4>
                 <h5 class="awesome-item__description">Lorem ipsum dolor sit amet, consectetur adipiscing 
                 elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.
                 </h5>
             </article>
             <article class="awesome-item">
-                <img class="awesome-item__image" src="./images/awesome/keyboard.svg" alt="Keyboard">
+                <img class="awesome-item__image awesome-item__image_hover" src="./images/awesome/keyboard.svg" alt="Keyboard">
                 <h4 class="awesome-item__title">Thoughtful Design</h4>
                 <h5 class="awesome-item__description">Lorem ipsum dolor sit amet, consectetur adipiscing 
                 elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.
                 </h5>
             </article>
             <article class="awesome-item">
-                <img class="awesome-item__image" src="./images/awesome/thunder.svg" alt="Thunder">
+                <img class="awesome-item__image awesome-item__image_hover" src="./images/awesome/thunder.svg" alt="Thunder">
                 <h4 class="awesome-item__title">Thoughtful Design</h4>
                 <h5 class="awesome-item__description">Lorem ipsum dolor sit amet, consectetur adipiscing 
                 elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.
@@ -151,51 +180,54 @@
         <div class="customers-container__separator"></div>
         <h5 class="customers-container__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
         <div class="customers-comments">
-            <div class="tweetbox">
-                <h4 class="tweetbox__text">Lorem ipsum dolor sit amet, 
+            <div class="comment-container">
+                <div class="tweetbox">
+                    <h4 class="tweetbox__text">Lorem ipsum dolor sit amet, 
                     consectetur adipisicing elit. Doloribus 
                     accusamus expedita repellat similique 
                     odio aspernatur ex, architecto eaque 
                     quo suscipit.
-                </h4>
+                    </h4>
                 <div class="tweetbox__triangle"></div>
+                </div>
+                <div class="employee-info">
+                    <img class="employe-info__photo" src="./images/customers/davis.svg" alt="Davis">
+                    <h4 class="employe-info__name">Davis Rhiel Madsen</h4>
+                    <h5 class="employe-info__job">Manager</h5>
+                </div>
             </div>
-            <div class="tweetbox">
-                <h4 class="tweetbox__text">Lorem ipsum dolor sit amet, 
-                    consectetur adipisicing elit. Doloribus 
-                    accusamus expedita repellat similique 
-                    odio aspernatur ex, architecto eaque 
-                    quo suscipit.
-                </h4>
-                <div class="tweetbox__triangle"></div>
+            <div class="comment-container">
+                <div class="tweetbox">
+                    <h4 class="tweetbox__text">Lorem ipsum dolor sit amet, 
+                        consectetur adipisicing elit. Doloribus 
+                        accusamus expedita repellat similique 
+                        odio aspernatur ex, architecto eaque 
+                        quo suscipit.
+                    </h4>
+                    <div class="tweetbox__triangle"></div>
+                </div>
+                <div class="employee-info">
+                    <img class="employe-info__photo" src="./images/customers/jaydon.svg" alt="Jaydon">
+                    <h4 class="employe-info__name">Jaydon Rosser</h4>
+                    <h5 class="employe-info__job">Manager</h5>
+                </div>
             </div>
-            <div class="tweetbox">
-                <h4 class="tweetbox__text">Lorem ipsum dolor sit amet, 
-                    consectetur adipisicing elit. Doloribus 
-                    accusamus expedita repellat similique 
-                    odio aspernatur ex, architecto eaque 
-                    quo suscipit.
-                </h4>
-                <div class="tweetbox__triangle"></div>
+            <div class="comment-container">
+                <div class="tweetbox">
+                    <h4 class="tweetbox__text">Lorem ipsum dolor sit amet, 
+                        consectetur adipisicing elit. Doloribus 
+                        accusamus expedita repellat similique 
+                        odio aspernatur ex, architecto eaque 
+                        quo suscipit.
+                    </h4>
+                    <div class="tweetbox__triangle"></div>
+                </div>
+                <div class="employee-info">
+                    <img class="employe-info__photo" src="./images/customers/cooper.svg" alt="Cooper">
+                    <h4 class="employe-info__name">Cooper Dorwart</h4>
+                    <h5 class="employe-info__job">Manager</h5>
+                </div>
             </div>
-        </div>
-        <div class="customers-employees">
-            <div class="employee-info">
-                <img class="employe-info__photo" src="./images/customers/davis.svg" alt="Davis">
-                <h4 class="employe-info__name">Davis Rhiel Madsen</h4>
-                <h5 class="employe-info__job">Manager</h5>
-            </div>
-            <div class="employee-info">
-                <img class="employe-info__photo" src="./images/customers/jaydon.svg" alt="Jaydon">
-                <h4 class="employe-info__name">Jaydon Rosser</h4>
-                <h5 class="employe-info__job">Manager</h5>
-            </div>
-            <div class="employee-info">
-                <img class="employe-info__photo" src="./images/customers/cooper.svg" alt="Cooper">
-                <h4 class="employe-info__name">Cooper Dorwart</h4>
-                <h5 class="employe-info__job">Manager</h5>
-            </div>
-        </div>
     </div>
 </section>
 <section class="design-background">
@@ -203,7 +235,25 @@
         <h2 class="design-container__title">STYLISH AXURE DESIGN</h2>
         <div class="design-container__separator"></div>
         <h5 class="design-container__subtitle">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</h5>
-        <button class="design-container__button design-container__button_hover design-container__button_click" type="button">Download</button>
+        <button class="design-container__button design-container__button_hover design-container__button_active" type="button">Download</button>
+    </div>
+</section>
+<section class="contact-background">
+    <div class="contact-container">
+        <h2 class="contact-container__title">contact us</h2>
+        <div class="contact-container__separator"></div>
+        <h5 class="contact-container__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+        <form class="contact-form">
+            <div class="contact-form-container">
+            <div class="contact-form-left">
+                <input class="contact-form-left__info" type="text" placeholder="Name"></label>
+                <input class="contact-form-left__info" type="email" placeholder="Email"></label>
+                <input class="contact-form-left__info" type="password" placeholder="Password"></label>
+            </div>
+            <textarea name="message" class="contact-form__message" placeholder="Message"></textarea>
+        </div>
+            <button class="contact-form__button contact-form__button_hover contact-form__button_active" type="submit">Send Message</div>
+        </form>
     </div>
 </section>
 <footer class="footer-background">

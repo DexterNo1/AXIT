@@ -1,5 +1,6 @@
 .awesome-background{
     width: 100%;
+    margin-top: 50px;
 }
 .awesome-container {
     width: 1170px;
@@ -12,11 +13,13 @@
     text-align: center;
     height: 150px;
     line-height: 150px;
+    margin: 0;
 }
 .awesome-container__separator {
     width: 170px;
-    border: 1px solid #EC7979;
-    margin: auto;
+    height: 1px;
+    background: #EC7979;
+    margin: 0 auto;
     margin-bottom: 40px;
 }
 .awesome-container__subheading {
@@ -53,4 +56,18 @@
 .awesome-item__image{
     display: block;
     margin: 0 auto;
+}
+.awesome-item__image_hover:hover{
+    animation-name: rotation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes rotation {
+    0% {
+        transform:rotateY(0deg);
+    }
+    100% {
+        transform:rotateY(360deg);
+    }
 }
