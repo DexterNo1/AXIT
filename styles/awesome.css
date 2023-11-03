@@ -33,27 +33,28 @@
 .awesome-block{
     width: 1170px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 .awesome-item {
     display: inline-block;
     width: 369px;
-    font-family: Open Sans;
 }
 .awesome-item__title {
     font-size: 24px;
+    font-family: Open Sans;
     font-weight: 700;
     text-align: center;
     margin-bottom: 8px;
 }
 .awesome-item__description {
-    width: 370px;
+    width: 100%;
     font-size: 18px;
     font-weight: 400;
     text-align: center;
     font-family: Raleway;
 }
 .awesome-item__image{
+    width: 170px;
     display: block;
     margin: 0 auto;
 }
@@ -69,5 +70,77 @@
     }
     100% {
         transform:rotateY(360deg);
+    }
+}
+
+
+@media screen and (max-width:1187px) {
+    .awesome-container {
+        width: 95%
+    }
+    .awesome-block{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width:1170px) {
+    .awesome-container__title {
+        font-size: 24px;
+        height: 120px;
+        line-height: 120px;
+    }
+    .awesome-container__separator {
+        width: 142px;
+        margin-bottom: 32px;
+    }
+    .awesome-container__subheading {
+        font-size: 14px;
+        margin-bottom: 32px;
+    }
+    .awesome-block{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .awesome-item {
+        width: 100%;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .awesome-item__title {
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 17px;
+    }
+    .awesome-item__description {
+        font-size: 14px;
+    }
+    .awesome-item__image{
+        width: 143px;
+    }
+}
+@media screen and (max-width:775px){
+    .awesome-background{
+        margin-top: 0px;
+    }
+    .awesome-block{
+        flex-direction: column;
+        align-items: center;
+    }
+    .awesome-container__title {
+        font-size: 18px;
+    }
+    .awesome-container__separator {
+        width: 134px;
+        margin-bottom: 25px;
+    }
+    .awesome-container__subheading {
+        font-size: 13px;
+        margin-bottom: 50px;
+    }
+    .awesome-item {
+        width: 65%;
     }
 }

@@ -30,12 +30,14 @@
             <div class="header-menu__item header-menu__item_hover header-menu__item_active">Reviews</div>
             <div class="header-menu__item header-menu__item_hover header-menu__item_active">Contact</div>
         </nav>
+        <nav class="header-container__burger"></nav>
     </div>
 </header>
 <section class="banner-background">
     <div class="banner-container">
         <div class="banner-left-box">
-            <div class="banner-left-box__logo">
+            <img class="banner-left-box__logo" src="/images/banner/logo.svg" alt="">
+            <div class="banner-left-box__logo2">
                 <img src="./images/banner/AXIT_logo.svg" alt="axit_logo1">
                 <img src="./images/banner/AXIT_logo2.svg" alt="axit_logo2">
             </div>
@@ -46,32 +48,32 @@
         </div>
         <div class="banner-right-box">
             <h4 class="banner-right-box__title">Try Your <span style="color:#EC7979;">FREE</span> Trial Today</h4>
-            <form class="banner-right-box-form">
+            <form class="banner-right-box-form"></form>
                 <div class="banner-right-box-form-container">
                     <input class="banner-right-box-form-container__info" type="text" placeholder="Name">
                     <input class="banner-right-box-form-container__info" type="email" placeholder="Email">
                     <input class="banner-right-box-form-container__info" type="password" placeholder="Password">
                 </div>
-                <button class="banner-right-box-form-container__button banner-right-box-form-container__button_hover banner-right-box-form-container__button_active" type="submit">Get Started</button>
-            </form>
+            <button class="banner-right-box-form-container__button banner-right-box-form-container__button_hover banner-right-box-form-container__button_active" type="submit">Get Started</button>
         </div>
+        </form>
     </div>
 </section>
 <section class="social-background">
     <div class="social-container">
         <div class="social-info">
-        <h4 class="social-info__title">Social Media</h4>
-        <h5 class="social-info__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            <h4 class="social-info__title">Social Media</h4>
+            <h5 class="social-info__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
             Aenean euismod bibendum laoreet.</h5>
         </div>
         <div class="social-icons">
-            <img class="social-icons__icon" src="./images/social/facebook_icon.svg" alt="Facebook icon">
-            <img class="social-icons__icon" src="./images/social/twitter_icon.svg" alt="Tweeter icon">
-            <img class="social-icons__icon" src="./images/social/linkedin_icon.svg" alt="LinkedIn icon">
-            <img class="social-icons__icon" src="./images/social/pinterest_icon.svg" alt="Pinterest icon">
-            <img class="social-icons__icon" src="./images/social/instagram_icon.svg" alt="Instagram icon">
-            <img class="social-icons__icon" src="./images/social/github_icon.svg" alt="GitHub icon">
-            <img class="social-icons__icon" src="./images/social/rss_icon.svg" alt="RSS icon">
+            <img class="social-icons__icon social-icons__icon_hover" src="./images/social/facebook_icon.svg" alt="Facebook icon">
+            <img class="social-icons__icon social-icons__icon_hover" src="./images/social/twitter_icon.svg" alt="Tweeter icon">
+            <img class="social-icons__icon social-icons__icon_hover" src="./images/social/linkedin_icon.svg" alt="LinkedIn icon">
+            <img class="social-icons__icon social-icons__icon_hover" src="./images/social/pinterest_icon.svg" alt="Pinterest icon">
+            <img class="social-icons__icon social-icons__icon_hover" src="./images/social/instagram_icon.svg" alt="Instagram icon">
+            <img class="social-icons__icon social-icons__icon_hover" src="./images/social/github_icon.svg" alt="GitHub icon">
+            <img class="social-icons__icon social-icons__icon_hover" src="./images/social/rss_icon.svg" alt="RSS icon">
         </div>
     </div>
 </section>
@@ -96,9 +98,16 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
                 <br>euismod
                 <br>bibendum laoreet.</h5>
+                <h5 class="undertabs-left-block__text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                    bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
+                    justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+                    penatibus et magnis dis parturient montes.
+                    <br><br>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                    bibendum laoreet.</h5>
                 <button class="undertabs-left-block__button undertabs-left-block__button_hover undertabs-left-block__button_active" type="button">Download</button>
             </div>
-            <img class="undertabs__right-_block-picture" src="./images/tabs/statue.svg" alt="statue">
+            <img class="undertabs__right-block__picture" src="./images/tabs/statue.svg" alt="statue">
         </div>
     </div>
 </section>
@@ -228,7 +237,8 @@
                     <h5 class="employe-info__job">Manager</h5>
                 </div>
             </div>
-    </div>
+        </div>
+        <img class="customers-comments__dots" src="/images/customers/dots.svg" alt="dots">
 </section>
 <section class="design-background">
     <div class="design-container">
@@ -250,7 +260,9 @@
                 <input class="contact-form-left__info" type="email" placeholder="Email"></label>
                 <input class="contact-form-left__info" type="password" placeholder="Password"></label>
             </div>
-            <textarea name="message" class="contact-form__message" placeholder="Message"></textarea>
+            <div class="contact-form-right">
+                <textarea name="message" class="contact-form-right__message" placeholder="Message"></textarea>
+            </div>
         </div>
             <button class="contact-form__button contact-form__button_hover contact-form__button_active" type="submit">Send Message</div>
         </form>
@@ -259,15 +271,15 @@
 <footer class="footer-background">
     <div class="footer-container">
         <div class="footer-icons">
-            <img class="footer-icons_item" src="./images/footer/facebook_icon.svg" alt="Facebook_icon">
-            <img class="footer-icons_item" src="./images/footer/twitter_icon.svg" alt="Twitter_icon">
-            <img class="footer-icons_item" src="./images/footer/linkedin_icon.svg" alt="LinkedIn_icon">
-            <img class="footer-icons_item" src="./images/footer/pinterest_icon.svg" alt="Pinterest_icon">
-            <img class="footer-icons_item" src="./images/footer/instagram_icon.svg" alt="Instagram_icon">
-            <img class="footer-icons_item" src="./images/footer/github_icon.svg" alt="GitHub_icon">
-            <img class="footer-icons_item" src="./images/footer/rss_icon.svg" alt="RSS_icon">
+            <img class="footer-icons__item footer-icons__item_hover" src="./images/footer/facebook_icon.svg" alt="Facebook_icon">
+            <img class="footer-icons__item footer-icons__item_hover" src="./images/footer/twitter_icon.svg" alt="Twitter_icon">
+            <img class="footer-icons__item footer-icons__item_hover" src="./images/footer/linkedin_icon.svg" alt="LinkedIn_icon">
+            <img class="footer-icons__item footer-icons__item_hover" src="./images/footer/pinterest_icon.svg" alt="Pinterest_icon">
+            <img class="footer-icons__item footer-icons__item_hover" src="./images/footer/instagram_icon.svg" alt="Instagram_icon">
+            <img class="footer-icons__item footer-icons__item_hover" src="./images/footer/github_icon.svg" alt="GitHub_icon">
+            <img class="footer-icons__item footer-icons__item_hover" src="./images/footer/rss_icon.svg" alt="RSS_icon">
         </div>
-        <t5 class="footer-container_text">© 2015 Axure Themes</t5>
+        <h5 class="footer-container_text">© 2015 Axure Themes</h5>
     </div>
 </footer>
 </body>

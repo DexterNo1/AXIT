@@ -14,9 +14,14 @@
 }
 .footer-icons{
     margin-top: 35px;
+    display: flex;
 }
-.footer-icons_item{
-    margin-right: 32.8px;
+.footer-icons__item{
+    margin-right: 16px;
+    margin-left: 16px;
+}
+.footer-icons__item_hover:hover{
+    filter: brightness(0.5);
 }
 .footer-container_text{
     margin-top: 27.8px;
@@ -24,4 +29,49 @@
     font-family: Raleway;
     font-size: 18px;
     font-weight: 400;
+}
+
+
+@media screen and (max-width: 1187px){
+    .footer-container{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1170px){
+    .footer-container{
+        width: 95%;
+    }
+    .footer-icons__item{
+        height: 45px;
+        margin-right: 13px;
+        margin-left: 13px;
+    }
+    .footer-container_text{
+        margin-top: 38px;
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 556px){
+    .footer-background{
+        margin-top: 40px;
+    }
+    .footer-icons__item{
+        height: 36px;
+        margin-right: 8px;
+        margin-left: 8px;
+    }
+    .footer-container_text{
+        margin-top: 42px;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 380px){
+    .footer-icons__item{
+        height: 26px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    .footer-container_text{
+        margin-top: 42px;
+    }
 }
